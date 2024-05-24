@@ -330,14 +330,14 @@ section {
     color: #C13584;
 }
 
-/*-------------------------contact-------------------------*/
-#contact {
+/*-------------------------footer-------------------------*/
+#footer {
     background: #B3B3B3;
     padding-top: 3%;
     padding-bottom: 3%;
     height: 10vh;
 }
-.contact-container {
+.footer-container {
     height: 5vh;
     display: flex;
     flex-direction: row;
@@ -345,7 +345,7 @@ section {
     align-items: center;
     padding-bottom: 3%;
 }
-.contact_main {
+.footer_main {
     align-items: baseline;
 }
 .social-icons {
@@ -499,11 +499,11 @@ section {
         font-size: 1.5rem;
     }
 
-    #contact {
+    #footer {
         padding: 0;
         height: 50px;
     }
-    .contact-container {
+    .footer-container {
         justify-content: baseline;
         align-items: center;
         height: 50px;
@@ -516,11 +516,11 @@ section {
         gap: 4px;
         
     }
-    #contact p {
+    #footer p {
         font-size: 0.6rem;
         padding-bottom: 5%;
     }
-    #contact a {
+    #footer a {
         font-size: 10px;
     }
 }
@@ -568,7 +568,7 @@ section {
         font-size: 1.9rem;
     }
 
-    #contact p {
+    #footer p {
         font-size: 0.8rem;
     }
 }
