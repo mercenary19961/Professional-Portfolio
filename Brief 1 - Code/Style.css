@@ -75,9 +75,20 @@ section {
 .home-title span:nth-child(4) {
     animation-duration: 1s;
 }
-.home-text {
+.home-text-1 {
     grid-column: 1 / 2;
-    grid-row: 2 / 5;
+    grid-row: 2 / 3;
+    font-size: 1.5rem;
+}
+.home-text-2 {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    font-size: 1.5rem;
+}
+.home-text-3 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    font-size: 1.5rem;
 }
 .home-image {
     grid-column: 2 / 3;
@@ -293,7 +304,7 @@ section {
 #projects h1 {
     text-align: center;
 }
-.projects-contianer {
+.projects-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -306,16 +317,16 @@ section {
     font-size: 2em;
     text-align: center;
 }
-.projects-contianer div {
+.projects-container div {
     width: 32%;
     height: 80%;
     margin-left: 1%;
 }
-.projects-contianer div p {
+.projects-container div p {
     text-align: center;
     padding-top: 0.1em;
 }
-.projects-contianer div img {
+.projects-container div img {
     width: 100%;
     min-height: 100%;
 }
@@ -389,34 +400,53 @@ section {
     }
 
     #home {
-        height: 600px
+        height: 600px;
+        padding-bottom: 1%;
     }
     .home-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        justify-content: left;
+        align-items: left;
+        padding-left: 5%;
     }
     .home-title {
         width: 90%;
-        height: 15%;
+        height: 10%;
         font-size: 1rem;
+        justify-content: left;
+        padding-bottom: 30px;
+        padding-top: 50px;
     }
-    .home-text {
-        width: 90%;
-        height: 25%;
+
+    .home-text-1 {
+        height: 10%;
+        padding-bottom: 30px;
+        font-size: 1.2rem;
+    }
+    .home-text-2 {
+        height: 10%;
+        padding-bottom: 30px;
+        font-size: 1.2rem;
+    }
+    .home-text-3 {
+        height: 10%;
+        padding-bottom: 30px;
+        font-size: 1.2rem;
     }
     .home-text p {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
         padding-bottom: 0.001%;
     }
     .home-image {
         width: 90%;
-        height: 55%;
+        height: 40%;
         padding-top: 20%;
     }
     .image-size {
-        width: 40px;
-        height: 40px;
+        width: 50px;
+        height: 50px;
     }
     .drop {
         animation: dropIn 4s ease forwards infinite;
@@ -453,6 +483,8 @@ section {
 
     #about {
         height: 850px;
+        padding-top: 1%;
+        padding-bottom: 1%;
     }
     .about-container {
         flex-direction: column;
@@ -471,6 +503,8 @@ section {
     .about-text {
         height: 150px;
         width: 90%;
+        justify-content: left;
+        padding-left: 5%;
     }
     .about-text h1 {
         font-size: 1.5rem;
@@ -482,6 +516,9 @@ section {
         font-size: 0.7rem;
     }
 
+    #skills {
+        padding-top: 1%;
+    }
     #skills h2 {
         font-size: 0.7rem;
     }
@@ -489,11 +526,17 @@ section {
         font-size: 0.5rem;
     }
 
+    #projects {
+        padding-top: 1%;
+    }
+    #projects h1 {
+        font-size: 2rem;
+    }    
     #projects h2 {
         font-size: 0.8rem;
     }    
     #projects p {
-        font-size: 0.5rem;
+        font-size: 0.55rem;
     }
     .projects-titles {
         font-size: 1.5rem;
@@ -520,8 +563,8 @@ section {
         font-size: 0.6rem;
         padding-bottom: 5%;
     }
-    #footer a {
-        font-size: 10px;
+    .social-icons a {
+        font-size: 20px;
     }
 }
     
@@ -559,7 +602,7 @@ section {
     }
 
     #projects h2 {
-        font-size: 1.4rem;
+        font-size: 1.1rem;
     }
     #projects p {
         font-size: 0.9rem;
@@ -571,7 +614,9 @@ section {
     #footer p {
         font-size: 0.8rem;
     }
+    .social-icons a {
+        font-size: 40px;
+    }
 }
-
 
 

@@ -13,8 +13,8 @@
 
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top py-2 px-5 nav-bg-color">
-    <a class="navbar-brand" href="#"><span class="main-color">My</span> Portfolio</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#"><span class="main-color">Z</span>aid Sabbagh</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,11 +32,38 @@
                 <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#footer">footer</a>
+                <a class="nav-link" href="#footer">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
+
+<!-- Offcanvas Menu -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">My Portfolio</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 <!-- Home Section -->
 <section id="home">
@@ -48,11 +75,9 @@
             <span>e</span>
             <br><br><br>
         </div>
-        <div class="home-text">  
-            <p>Welcome to my portfolio website</p><br><br>
-            <p>Hi i'm <span class="main-color">Zaid</span> from Jordan & i'm</p><br><br>
-            <p>a <strong>Full Stack Web Developer</strong> </p>
-        </div>  
+        <div class="home-text-1">Welcome to my portfolio website</div>  
+        <div class="home-text-2">Hi i'm <span class="main-color">Zaid</span> from Jordan & i'm</div>
+        <div class="home-text-3">a <strong>Full Stack Web Developer</strong></div>
         <div class="home-image">
             <img class="drop image-size" style="--order:1" src="/Images/technology.png"  alt="cloud computing" title="cloud computing">
             <img class="drop image-size" style="--order:2" src="/Images/technology (1).png" alt="brain storming" title="brain storming">
@@ -135,7 +160,7 @@
 <section id="projects">
     <div class="container">
         <h1 class="projects-h1"><span class="main-color">P</span>rojects</h1>
-        <div class="projects-contianer">
+        <div class="projects-container">
             <div>
                 <h2 class="projects-titles">Flashy Cards</h2>
                 <img src="/Images/Flashy Cards.png" alt="Flashy Cards Python Project" title="Flashy Cards">
@@ -184,5 +209,6 @@
     </div>
 </section>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
